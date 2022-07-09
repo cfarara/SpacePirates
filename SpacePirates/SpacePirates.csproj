@@ -7,8 +7,8 @@
     <ProjectGuid>{0657CF1E-0E4D-45B1-8196-EFD60464DDE5}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>SpaceInvaders</RootNamespace>
-    <AssemblyName>SpaceInvaders</AssemblyName>
+    <RootNamespace>SpacePirates</RootNamespace>
+    <AssemblyName>SpacePirates</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion>10.0.19041.0</TargetPlatformVersion>
@@ -78,7 +78,7 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <ErrorReport>prompt</ErrorReport>
     <Prefer32Bit>true</Prefer32Bit>
-    <DocumentationFile>bin\x64\Debug\SpaceInvaders.XML</DocumentationFile>
+    <DocumentationFile>bin\x64\Debug\SpacePirates..XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutputPath>bin\x64\Release\</OutputPath>
