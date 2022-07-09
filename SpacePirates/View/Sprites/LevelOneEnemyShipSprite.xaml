@@ -1,0 +1,26 @@
+﻿<UserControl
+    x:Class="SpacePirates.View.Sprites.LevelOneEnemyShipSprite"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpacePirates.View.Sprites"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="33"
+    d:DesignWidth="50"
+    Height="33"
+    Width="50">
+
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="LevelOneEnemyShipColor" Color="LimeGreen"/>
+        <SolidColorBrush x:Key="LevelOneEnemyShipTipColor" Color="Red"/>
+    </UserControl.Resources>
+
+    <Canvas>
+        <Ellipse Fill="{StaticResource LevelOneEnemyShipTipColor}" Height="10" Width="10" Canvas.Top="18" Canvas.Left="20" />
+        <Rectangle Width="50" Height="10"  Canvas.Top="0" Canvas.Left="0" Fill= "{StaticResource LevelOneEnemyShipColor}"/>
+        <Rectangle Width="10" Height="20"  Canvas.Top="0" Canvas.Left="40" Fill= "{StaticResource LevelOneEnemyShipColor}"/>
+        <Rectangle Width="10" Height="20"  Canvas.Top="0" Canvas.Left="0" Fill= "{StaticResource LevelOneEnemyShipColor}"/>
+        <Rectangle Width="10" Height="24"  Canvas.Top="0" Canvas.Left="20" Fill= "{StaticResource LevelOneEnemyShipColor}"/>
+    </Canvas>
+</UserControl>

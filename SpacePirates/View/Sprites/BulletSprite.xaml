@@ -1,0 +1,24 @@
+﻿<UserControl
+    x:Class="SpacePirates.View.Sprites.BulletSprite"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SpacePirates.View.Sprites"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="6"
+    d:DesignWidth="7"
+    Height="6"
+    Width="7">
+
+    <UserControl.Resources>
+        <SolidColorBrush x:Key="BulletBlueColor" Color="Red"/>
+        <SolidColorBrush x:Key="BulletWhiteColor" Color="WhiteSmoke"/>
+
+    </UserControl.Resources>
+
+    <Canvas>
+        <Rectangle Width="6" Height="6"  Canvas.Top="0" Canvas.Left="0" Fill= "{StaticResource BulletWhiteColor}"/>
+        <Rectangle Width="6" Height="2"  Canvas.Top="0" Canvas.Left="0" Fill= "{StaticResource BulletBlueColor}"/>
+    </Canvas>
+</UserControl>

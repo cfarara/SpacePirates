@@ -1,0 +1,1 @@
+Part 3 has partial collision detection. Parts 5 and 6 are not implemented.
